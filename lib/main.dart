@@ -1,11 +1,8 @@
-
-// stateless => screen static
-// statefull
 import 'package:flutter/material.dart';
 import 'package:myapp/screens/home_view.dart';
 
 void main() {
-  runApp(const MyApp()); // run flutter application
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -13,6 +10,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: HomeView());
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: HomeView() ,
+    );
   }
 }
