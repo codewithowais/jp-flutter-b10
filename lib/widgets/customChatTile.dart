@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-Widget customChatTile(title, subtitle, image) {
+Widget customChatTile({required title,required subtitle,required image}) {
   return ListTile(
     leading: CircleAvatar(backgroundImage: NetworkImage("$image")),
     title: Text("$title"),
@@ -12,3 +12,6 @@ Widget customChatTile(title, subtitle, image) {
     ),
   );
 }
+
+
+abc(name) {}
