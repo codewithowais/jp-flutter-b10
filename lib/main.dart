@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:myapp/screens/about_view.dart';
 import 'package:myapp/screens/home_view.dart';
+import 'package:myapp/screens/newscreen.dart';
+import 'package:myapp/screens/splashScreen.dart';
 
 void main() {
   runApp(MyApp());
@@ -13,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: AboutView() ,
+      home: SplashScreen(),
     );
   }
 }

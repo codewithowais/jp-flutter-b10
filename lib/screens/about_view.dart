@@ -18,7 +18,7 @@ class AboutView extends StatelessWidget {
                 backgroundImage: NetworkImage(
                   'https://cdn.pixabay.com/photo/2020/02/03/10/07/lamborghini-4815249_1280.jpg',
                 ),
-              ),
+              ), 
               decoration: BoxDecoration(color: Colors.blue),
             ),
             ListTile(
