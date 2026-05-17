@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:myapp/screens/home_view.dart';
+import 'package:myapp/old-screens/home_view.dart';
 
 class AboutView extends StatelessWidget {
   const AboutView({super.key});
