@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:myapp/old-screens/about_view.dart';
 import 'package:myapp/old-screens/newscreen.dart';
 import 'package:myapp/old-screens/splashScreen.dart';
+import 'package:myapp/screens/dashbaord/dashboard_view.dart';
 import 'package:myapp/screens/home/home_view.dart';
 
 void main() {
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomeView(),
+      home: DashboardView(),
     );
   }
 }
